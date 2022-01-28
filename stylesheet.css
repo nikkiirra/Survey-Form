@@ -1,0 +1,26 @@
+.title {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#brand-name {
+    margin-left: 5px;
+    background-image: 
+}
+#head2, #survey-form {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.josefin-bold {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin: .05px;
+}
+
+#radio-button-header {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#survey-form {
+    padding: 20px;
+}
