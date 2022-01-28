@@ -2,11 +2,11 @@
 body, .survey-form-header {
     margin-left: 200px;
     margin-right: 200px;
-    width: 1444px;
+    width: 1000px;
 }
 
 #main-container {
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .title, .brand-container, #head3 {
     font-family: 'Cedarville Cursive', cursive;
