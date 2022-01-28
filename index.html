@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystylesheet.css">
+    <title>Codes and Coffee</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1 id="head1"><center>How's our coffee?</center></h1>
+        <h2 id="head2"><center>Thank you for taking time to help us improve our service!</center></h2>
+    </div>  
+     <form action="/action_page.php" id="survey-form">
+            <div class="name_box" id="content1"><br>
+                <label for="Name" id="name-label"><h3>Full Name</h3></label> <br>
+                <input type="text" class="box" name="fullname" placeholder="Full Name" required> <br><br>
+                <label for="email" id="email-label"><h3>Email</h3></label> <br>
+                <input type="email" class="box" id="email" name="email" placeholder="user@company.com" required> <br><br>
+                <label for="number" id="number-label"><h3>Contact Number</h3></label> <br>
+                <input type="tel" class="box" id="number" name="number" pattern="[0-9]{11}" placeholder="0961XXXXXXX" required> <br><br>
+            
+               
+            <div id="survey-form">
+                <label for="coffee_visit"><h3>How often do you visit our shop?</h3></label><br>
+                <select name="coffee_visit" class="box" id="dropdown">
+                    <option value="Daily ">Daily</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                    <option value="Occasionally">Occasionally</option>
+                </select>
+                <br>
+                <br>
+                <label for="recommend"><h3>Would you recommend our products and services?</h3></label>
+                <input type="radio"  name="recommend" value="Yes">&nbsp&nbsp&nbspYes<br><br>
+                <input type="radio"  name="recommend" value="No">&nbsp&nbsp&nbspNo<br><br>   
+
+                <label for="Favorite product" id="favorite_product"><h3>What is your favorite food/beverage from us?</h3></label><br>
+                <input type="text" class="box" name="firstname" placeholder="E.g caramel macchiato">
+                <br><br>
+            </div>
+
+            <div class="feedback_box" id="feedback">
+                <label for="feedback"><h3>Drop your suggestions and feedback here!</h3></label>
+                <textarea></textarea>  
+                <br><br>
+                
+            <button><h3>Submit</h3></button>
+        </div>
+   
+    </form>
+
+</body>
+    
