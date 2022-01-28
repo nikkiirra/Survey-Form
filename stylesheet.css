@@ -1,4 +1,14 @@
-.title {
+
+body, .survey-form-header {
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1444px;
+}
+
+#main-container {
+    margin-left: 250px;
+}
+.title, .brand-container, #head3 {
     font-family: 'Cedarville Cursive', cursive;
 }
 
@@ -18,21 +28,18 @@
 }
 
 .survey-form-header {
-    width: 500px;
-    height: 250px;
     border: 0px;
-
     display: flex;
     flex-direction: column;
-    flex-direction: row;
-
 }
 
+#head2, #head3 {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+}
 
 #head2 {
-    width: 350px;
-    height: 125px;
-
     left: 106px;
     top: 234px;
     font-size: 25px;
@@ -40,24 +47,21 @@
     top: 315px;
 }
 
-#head3 {
-
-    width: 350px;
-    height: 125px;
+.survey-head3 {
     left: 169px;
     top: 315px;
     font-size: 35px;
     margin: 0;
+    border: 0;
 }
+
+#head3 {
+    margin: 0;
+    font-size: 35px;
+}
+
 
 #green-square {
-    position: relative;
-    width: 150px;
-    height: 250px
-}
-
-#coffee-grinder {
-    position: relative;
     width: 150px;
     height: 250px;
 }
@@ -65,6 +69,16 @@
 
 #head2, #survey-form {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.survey-icon {
+    margin-left: 950px;
+    margin-left: 650px;
+    margin-top: -150px;
+}
+
+.info-answer {
+    width: 550px;
 }
 
 .josefin-bold {
@@ -80,4 +94,45 @@
 
 #survey-form {
     padding: 20px;
+}
+
+.dropdown-list {
+    width: 200px;
+    height: 21px;
+}
+    
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    background-image: url(icons/rectangle-submit.png);
+}
+
+
+.product-box {
+    margin-left: 105px;
+}
+
+#feedback, .product-box {
+   width: 540px;
+   display: flex;
+   justify-content: center;
+}
+.product-box {
+    width: 300px;
+}
+.feedback_box {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-button {
+    width: 120px;
+    height: 54px;
+    left: 343.94px;
+    margin-bottom: 20px;
+
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codes and Coffee</title>
+
     <!------ FONTS ------>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
@@ -15,39 +16,57 @@
         <div class="brand-container">
             <h1 class="head1" id="brand-name">Codes and Coffee</h1>
             <img src="icons/leaf.png" id="brand-name-icon" alt="icon">
-        </div class="survey-form-header">
+        </div>    
+    </div> 
 
         <div class="survey-form-header">
-            <h1 id="head2" class="josefin-bold">Thank you for taking time to help us improve our service!</h1>
-            <h2 id="head3">How's our coffee?</h2>'
-            <img src="icons/greensquare.png" id="green-square" alt="greensquare">
-            <img src="icons/cofeegrinder.png" id="coffee-grinder" alt="coffeegrinder">
-        </div>
-    </div>  
+            <div class="survey-head2">
+                <h1 id="head2" class="josefin-bold">Thank you for taking time to help us improve our service!</h1>
+            </div>
+            <div class="survey-head3">
+                <h2 id="head3">How's our coffee?</h2>
+            </div>
+            <div class="survey-icon">
+                <img src="icons/coffeegrinder2.png" id="green-square" alt="greensquare">
+            </div>
+        </div>  
+
      <form action="/action_page.php" id="survey-form">
-            <div class="name_box" id="content1"><br>
-                <label for="Name" id="name-label"><h3 class="josefin-bold">Full Name</h3></label> <br>
-                <input type="text" class="box" name="fullname" placeholder="Full Name" required> <br><br>
-                <label for="email" id="email-label"><h3 class="josefin-bold">Email</h3></label> <br>
-                <input type="email" class="box" id="email" name="email" placeholder="user@company.com" required> <br><br>
-                <label for="number" id="number-label"><h3 class="josefin-bold">Contact Number</h3></label> <br>
-                <input type="tel" class="box" id="number" name="number" pattern="[0-9]{11}" placeholder="0961XXXXXXX" required> <br><br>
-            
+        <div id="main-container">
+            <div class="info-container">
+                <div class="info-bg">
+
+                </div>
+                <div class="info_box" id="content1"><br>
+                    <label for="Name" id="name-label"><h3 class="josefin-bold">Full Name</h3></label> <br>
+                    <input type="text" class="info-answer" name="fullname" placeholder="Full Name" required> <br><br>
+                    <label for="email" id="email-label"><h3 class="josefin-bold">Email</h3></label> <br>
+                    <input type="email" class="info-answer" id="email" name="email" placeholder="user@company.com" required> <br><br>
+                    <label for="number" id="number-label"><h3 class="josefin-bold">Contact Number</h3></label> <br>
+                    <input type="tel" class="info-answer" id="number" name="number" pattern="[0-9]{11}" placeholder="0961XXXXXXX" required> 
+                    <br><br><br><br>
+                </div>
+
+            </div>  
                
-            <div id="">
+            <div id="question1">
                 <label for="coffee_visit"><h3 class="josefin-bold">How often do you visit our shop?</h3></label><br>
-                <select name="coffee_visit" class="box" id="dropdown">
-                    <option value="Daily ">Daily</option>
+                <select name="coffee_visit" class="dropdown-list" id="dropdown">
+                    <option value="Daily">Daily</option>
                     <option value="Weekly">Weekly</option>
                     <option value="Monthly">Monthly</option>
                     <option value="Occasionally">Occasionally</option>
                 </select>
-                <br>
-                <br>
+                <br><br><br><br>
+            </div>   
+            
+            <div class="question2">
                 <label for="recommend"><h3 class="josefin-bold" id="radio-button-header">Would you recommend our products and services?</h3></label>
                 <input type="radio"  name="recommend" value="Yes">Yes<br><br>
-                <input type="radio"  name="recommend" value="No">No<br><br>   
+                <input type="radio"  name="recommend" value="No">No<br><br><br><br>   
+            </div>
 
+            <div id="question3">
                 <label for="checkbox"><h3 class="josefin-bold">Did we have the following qualities in our cafe?</h3></label><br>
                 <input type="checkbox" id="quality1" name="quality1" value="Staff">
                 <label for="quality1"> Friendly and welcoming staff</label><br>
@@ -60,22 +79,25 @@
 
                 <input type="checkbox" id="quality4" name="quality4" value="Facilities">
                 <label for="quality4"> Clean and sanitized facilities</label>
-                <br><br>
-
-
-                <label for="Favorite product" id="favorite_product"><h3 class="josefin-bold">What is your favorite food/beverage from us?</h3></label><br>
-                <input type="text" class="box" name="firstname" placeholder="E.g caramel macchiato">
-                <br><br>
+                <br><br><br><br>
             </div>
 
-            <div class="feedback_box" id="feedback">
-                <label for="feedback"><h3 class="josefin-bold">Drop your suggestions and feedback here!</h3></label>
-                <textarea></textarea>  
-                <br><br>
-                
-            <button><h3>Submit</h3></button>
+            <div class="submit-container">
+                <div id="question4">
+                    <label for="Favorite product" id="favorite_product"><h3 class="josefin-bold">What is your favorite food/beverage from us?</h3></label><br>
+                    <input type="text" class="product-box" name="product" placeholder="E.g caramel macchiato">
+                    <br><br>
+                </div>
+
+                <div class="feedback_box">
+                    <label for="feedback" id="feedback"><h2 class="josefin-bold">Drop your suggestions and feedback here!</h2></label>
+                    <textarea></textarea>  
+                    <br><br>
+                    
+                <button class="submit-button"><h3>Submit</h3></button>
+                </div>  
+            </div>       
         </div>
-   
     </form>
 
 </body>
