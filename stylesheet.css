@@ -1,153 +1,154 @@
-
-body, .survey-form-header {
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 1000px;
+body,
+.survey-form-header {
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 1000px;
 }
 
 #main-container {
-    margin-left: 200px;
+  margin-left: 200px;
 }
-.title, .brand-container, #head3 {
-    font-family: 'Cedarville Cursive', cursive;
+.title,
+.brand-container,
+#head3 {
+  font-family: "Cedarville Cursive", cursive;
 }
 
 .brand-container {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 #brand-name {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 #brand-name-icon {
-    width: 56px;
-    height: 41px;
-
+  width: 56px;
+  height: 41px;
 }
 
 .survey-form-header {
-    border: 0px;
-    display: flex;
-    flex-direction: column;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
-#head2, #head3 {
-    display: flex;
-    justify-content: center;
-    width: 650px;
+#head2,
+#head3 {
+  display: flex;
+  justify-content: center;
+  width: 650px;
 }
 
 #head2 {
-    left: 106px;
-    top: 234px;
-    font-size: 25px;
-    margin: 0;
-    top: 315px;
+  left: 106px;
+  top: 234px;
+  font-size: 25px;
+  margin: 0;
+  top: 315px;
 }
 
 .survey-head3 {
-    left: 169px;
-    top: 315px;
-    font-size: 35px;
-    margin: 0;
-    border: 0;
+  left: 169px;
+  top: 315px;
+  font-size: 35px;
+  margin: 0;
+  border: 0;
 }
 
 #head3 {
-    margin: 0;
-    font-size: 35px;
+  margin: 0;
+  font-size: 35px;
 }
-
 
 #green-square {
-    width: 150px;
-    height: 250px;
+  width: 150px;
+  height: 250px;
 }
 
-
-#head2, #survey-form {
-    font-family: 'Josefin Sans', sans-serif;
+#head2,
+#survey-form {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .survey-icon {
-    margin-left: 950px;
-    margin-left: 650px;
-    margin-top: -150px;
+  margin-left: 950px;
+  margin-left: 650px;
+  margin-top: -150px;
 }
 
 .info-answer {
-    width: 550px;
+  width: 550px;
 }
 
 .josefin-bold {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    margin: .05px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  margin: 0.05px;
 }
 
 #radio-button-header {
-    margin: 10px;
-    margin-left: 0px;
+  margin: 10px;
+  margin-left: 0px;
 }
 
 #survey-form {
-    padding: 20px;
+  padding: 20px;
 }
 
 .dropdown-list {
-    width: 200px;
-    height: 21px;
+  width: 200px;
+  height: 21px;
 }
-    
+
 .submit-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 540px;
-    background-image: url(icons/rectangle-submit.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 540px;
+  background-image: url(icons/rectangle-submit.png);
 }
-
 
 .product-box {
-    margin-left: 105px;
+  margin-left: 105px;
 }
 
-#feedback, .product-box {
-   width: 540px;
-   display: flex;
-   justify-content: center;
+#feedback,
+.product-box {
+  width: 540px;
+  display: flex;
+  justify-content: center;
 }
 .product-box {
-    width: 300px;
+  width: 300px;
 }
 .feedback_box {
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .submit-button {
-    width: 120px;
-    height: 54px;
-    left: 343.94px;
-    margin-bottom: 20px;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    -webkit-box-shadow: 0px 1px 3px 2D635E;
-    -moz-box-shadow: 0px 1px 3px 2D635E;
-    box-shadow: 0px 1px 3px 2D635E;
-    color: #ffffff;
-    background: #2D635E;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+  width: 120px;
+  height: 54px;
+  left: 343.94px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px 2d635e;
+  -moz-box-shadow: 0px 1px 3px 2d635e;
+  box-shadow: 0px 1px 3px 2d635e;
+  color: #ffffff;
+  background: #2d635e;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .submit-button:hover {
-    background: #444A4A;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+  background: #444a4a;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
